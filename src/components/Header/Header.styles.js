@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const LogoN = styled.img`
-  width: 150px;
+  width: 200px;
 
   @media screen and (max-width: 500px) {
-    width: 100px;
+    width: 150px;
   }
 `;
 
@@ -38,14 +38,7 @@ export const Nav = styled.div`
 `;
 
 export const Logo = styled.a`
-  text-decoration: none;
-  h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5rem;
-  }
-  @media (max-width: 768px) {
-    padding: 20px;
-  }
+  padding-top: 20px;
 `;
 
 export const Menu = styled.div`

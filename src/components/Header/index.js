@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
 import { Nav, Logo, Hamburger, Menu, MenuLink, LogoN } from "./Header.styles";
+import logo from "../../images/logo.svg";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
       <Logo href="/">
-        <h1>Mexicana de Rotulos</h1>
+        <LogoN src={logo} />
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -24,7 +25,7 @@ const Header = () => {
           Servicios
         </MenuLink>
         <hr class="menu" />
-        <MenuLink href="#contacto" className="tercero">
+        <MenuLink href="#contact" className="tercero">
           Contáctanos
         </MenuLink>
         <hr class="menu" />

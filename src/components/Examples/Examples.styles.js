@@ -24,10 +24,10 @@ export const Content = styled.div`
   p {
     font-family: "Montserrat", sans-serif;
     padding: 15px;
-    font-weight: 600;
-    font-size: var(--fontBig);
+    font-weight: 300;
+    font-size: var(--fontMed);
     @media screen and (max-width: 720px) {
-      font-size: var(--fontMed);
+      font-size: 1rem;
     }
   }
 `;

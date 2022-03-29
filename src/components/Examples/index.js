@@ -24,6 +24,19 @@ import image7 from "../../images/image7.jpg";
 import image8 from "../../images/image8.jpg";
 import image9 from "../../images/image9.jpg";
 import image10 from "../../images/image10.jpg";
+import image11 from "../../images/image11.jpeg";
+import image12 from "../../images/image12.jpeg";
+import image13 from "../../images/image13.jpeg";
+import image14 from "../../images/image14.jpeg";
+import image15 from "../../images/image15.jpeg";
+import image16 from "../../images/image16.jpeg";
+import image17 from "../../images/image17.jpeg";
+import image18 from "../../images/image18.jpeg";
+import image19 from "../../images/image19.jpeg";
+import image20 from "../../images/image20.jpeg";
+import image21 from "../../images/image21.jpeg";
+import image22 from "../../images/image22.jpeg";
+import image23 from "../../images/image23.jpeg";
 const Examples = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -86,6 +99,71 @@ const Examples = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image10} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image11} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image12} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image13} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image14} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image15} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image16} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image17} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image18} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image19} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image20} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image21} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image22} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image23} />
           </CardHeader>
         </CardWrapper>
       </div>
