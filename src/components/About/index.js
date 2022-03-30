@@ -3,7 +3,7 @@ import { Content, Wrapper, Text, Box, Map, MapC } from "./About.styles";
 
 import MapP from "../../images/about1.svg";
 import Mision from "../../images/about2.svg";
-import Vision from "../../images/about3.svg";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 

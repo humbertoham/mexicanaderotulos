@@ -13,7 +13,7 @@ const Contact = () => {
         <Con className="ptp">
           <h1>
             <FontAwesomeIcon className="email" size="2x" icon={faEnvelope} />
-            Email: joseorterga1@gmail.com
+            Email: joseluisortegamendez9@gmail.com
           </h1>
         </Con>
         <Con>
@@ -26,7 +26,8 @@ const Contact = () => {
         <Con className="pt">
           <h1>
             <FontAwesomeIcon className="pin" size="2x" icon={faMapMarkerAlt} />{" "}
-            Ubicación: Guadalajara, Jalisco
+            Ubicación: San Sebastián el Grande Tlajomulco de Zúñiga Jalisco,
+            Santos Inocentes 809 col. Col. Vistas del Valle
           </h1>
         </Con>
       </Container>
