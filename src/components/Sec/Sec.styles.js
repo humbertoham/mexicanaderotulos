@@ -14,16 +14,6 @@ export const Container = styled.div`
   position: relative;
   z-index: 0;
 
-  &:before {
-    background: rgba(0, 0, 0, 0.6);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-  }
   @media (max-width: 768px) {
     background-attachment: unset;
     min-height: 400px;
