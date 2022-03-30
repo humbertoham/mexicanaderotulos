@@ -37,18 +37,16 @@ export const Nav = styled.div`
   z-index: 1;
 `;
 
-export const Logo = styled.a`
-  padding-top: 20px;
-`;
-
 export const Menu = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  margin: auto;
   @media (max-width: 768px) {
     overflow: hidden;
     flex-direction: column;
+
     max-height: ${({ isOpen }) => (isOpen ? "300px" : "0")};
     transition: max-height 0.3s ease-in;
     width: 100%;
@@ -57,6 +55,7 @@ export const Menu = styled.div`
 export const Hamburger = styled.div`
   display: none;
   flex-direction: column;
+  padding: 20px;
   cursor: pointer;
   span {
     height: 3px;

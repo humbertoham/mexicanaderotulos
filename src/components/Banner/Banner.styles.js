@@ -14,20 +14,20 @@ export const Container = styled.div`
   position: relative;
   z-index: 0;
 
-  &:before {
-    background: rgba(0, 0, 0, 0.6);
-    content: "";
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-  }
   @media (max-width: 768px) {
     min-height: 600px;
     background-attachment: unset;
   }
+`;
+export const LogoN = styled.img`
+  width: 400px;
+
+  @media screen and (max-width: 500px) {
+    width: 300px;
+  }
+`;
+export const Logo = styled.a`
+  padding-top: 20px;
 `;
 
 export const Text = styled.div`

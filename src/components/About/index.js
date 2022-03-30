@@ -16,7 +16,11 @@ const About = () => {
       <Content data-aos="fade-right">
         <Text>
           <h1>¿Quiénes somos?</h1>
-          <p>Falta información</p>
+          <p>
+            Somos una empresa con 42 años de Experiencia Profesional en
+            Rotulación Manual y todo tipo de Trabajo elaborado con pintura y
+            Figura Artística y comercial
+          </p>
         </Text>
         <MapC className="right" data-aos="fade-up">
           <Map src={MapP} />
@@ -29,18 +33,14 @@ const About = () => {
         </MapC>
         <Text>
           <h1>Misión</h1>
-          <p>Falta información</p>
+          <p>
+            Nuestra misión es ofrecerle al cliente el mejor Servicio, Calidad,
+            Responsabilidad con Precios Justos y Razonables con garantía y
+            satisfacción del trabajo Elaborado
+          </p>
         </Text>
         <MapC className="db" data-aos="fade-up">
           <Map src={Mision} />
-        </MapC>
-      </Content>
-      <Content data-aos="fade-right">
-        <Text>
-          <p>Falta información</p>
-        </Text>
-        <MapC className="right" data-aos="fade-up">
-          <Map src={Vision} />
         </MapC>
       </Content>
     </Wrapper>

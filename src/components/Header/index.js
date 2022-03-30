@@ -7,9 +7,6 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <Nav>
-      <Logo href="/">
-        <LogoN src={logo} />
-      </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
         <span />
