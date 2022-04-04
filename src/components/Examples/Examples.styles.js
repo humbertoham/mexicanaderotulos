@@ -116,7 +116,9 @@ export const Page = styled.img`
   height: auto;
   width: 100%;
   margin: auto;
-  padding: 0px 30px;
+  border-radius: 25px;
+
+  border: solid 5px var(--yellow);
   @media screen and (max-width: 720px) {
     width: 100%;
   }
