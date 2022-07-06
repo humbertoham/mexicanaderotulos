@@ -37,6 +37,12 @@ import image20 from "../../images/image20.jpeg";
 import image21 from "../../images/image21.jpeg";
 import image22 from "../../images/image22.jpeg";
 import image23 from "../../images/image23.jpeg";
+import image24 from "../../images/image24.jpeg";
+import image25 from "../../images/image25.jpeg";
+import image26 from "../../images/image26.jpeg";
+import image27 from "../../images/image27.jpeg";
+import image28 from "../../images/image28.jpeg";
+import image29 from "../../images/image29.jpeg";
 const Examples = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -164,6 +170,36 @@ const Examples = () => {
         <CardWrapper data-aos="fade-up">
           <CardHeader>
             <Page src={image23} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image24} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image25} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image26} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image27} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image28} />
+          </CardHeader>
+        </CardWrapper>
+        <CardWrapper data-aos="fade-up">
+          <CardHeader>
+            <Page src={image29} />
           </CardHeader>
         </CardWrapper>
       </div>
